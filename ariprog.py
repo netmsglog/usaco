@@ -32,7 +32,7 @@ for item in bisqs:
 #print(len(bistable), maxpq, maxa, maxb)
 seqs = []
 for start in range(0, len(bisqs)-n+1):
-    for item in range(start+1, len(bisqs)-n+1):
+    for item in range(start+1, len(bisqs)-n+2):
         gap = bisqs[item] - bisqs[start]
         #if gap > maxb:
         #    continue
